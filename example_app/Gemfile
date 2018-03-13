@@ -1,0 +1,17 @@
+source 'https://rubygems.org'
+ruby '2.4.2'
+
+gem 'sinatra'
+gem 'rack-flash3'
+gem 'cf-app-utils'
+gem 'rake'
+
+group :test do
+  gem 'rack-test'
+  gem 'mocha', require: false
+  gem 'rerun'
+  gem 'capybara'
+  gem 'capybara_minitest_spec'
+  gem 'octokit'
+  gem 'pry'
+end

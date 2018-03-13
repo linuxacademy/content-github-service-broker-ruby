@@ -1,0 +1,16 @@
+source 'https://rubygems.org'
+ruby '2.4.2'
+
+gem 'sinatra'
+gem 'json'
+gem 'octokit'
+gem 'sshkey'
+gem 'rake'
+
+group :test do
+  gem 'minitest'
+  gem 'rack-test'
+  gem 'mocha', require: false
+  gem 'webmock'
+  gem 'pry'
+end
